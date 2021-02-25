@@ -1,0 +1,139 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+body {
+  background-color: #0B0B0B;
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400; }
+
+header {
+  height: 100vh;
+  background-image: url(../img/bg-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.container {
+  padding: 0 15px;
+  max-width: 1330px;
+  margin: 0 auto; }
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+.header__logo {
+  padding: 36px; }
+.header__menu {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0; }
+  .header__menu-item {
+    list-style: none;
+    margin-right: 27px;
+    font-size: 23px;
+    display: inline-block;
+    transition: all .5s; }
+  .header__menu-item:hover {
+    border-bottom: 1px solid #770302; }
+  .header__menu-link {
+    text-decoration: none;
+    color: #fff; }
+.header__burger {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .header__burger-line {
+    width: 36px;
+    height: 2px;
+    background-color: #fff;
+    margin: 5px 0px; }
+.header__content-title {
+  font-size: 96px;
+  line-height: 112px;
+  margin-bottom: 40px; }
+.header__content-text {
+  width: 284px;
+  margin-bottom: 25px; }
+.header__content-link {
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 30px 62px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 800;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all .9s;
+  margin-top: 21px; }
+.header__content-link:hover {
+  background-color: #770302;
+  border: 1px solid #770302; }
+
+.speed {
+  margin-top: 105px;
+  display: flex;
+  justify-content: space-between; }
+  .speed__info {
+    text-align: center; }
+    .speed__info-title {
+      font-size: 24px;
+      color: #fff; }
+    .speed__info-number {
+      margin-top: 65px;
+      font-size: 96px;
+      color: #fff; }
+    .speed__info-seconds {
+      font-size: 24px;
+      color: #fff; }
+    .speed__info-description {
+      margin-top: 22px;
+      color: #770302;
+      font-size: 18px; }
+
+.slider {
+  margin-top: 60px;
+  position: relative; }
+  .slider__item {
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat; }
+    .slider__item img {
+      max-width: 100%; }
+
+.slick-arrow {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 10px);
+  border: none;
+  outline: none;
+  z-index: 30;
+  font-size: 0;
+  background-image: url(../img/icon/arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+.slick-prev {
+  left: 15px;
+  transform: scaleX(-1); }
+
+.slick-next {
+  right: 15px; }
+
+/*# sourceMappingURL=style.css.map */
